@@ -1,0 +1,53 @@
+                     CREATE DOCKER IMAGES
+
+
+
+-> docker images (for serching existing images)
+
+-> docker info (information of docker)
+
+-> docker search hello-world (for searching new image)
+
+-> docker pull hello-world (to download new image)
+
+-> docker images (for existing images)
+
+
+
+                        CREATE DOCKER CONTAINER
+
+-> docker ps (for searching existing containers)
+
+-> docker run -it centos (centos is a container name)
+   
+   it will create new container and switch to the container automaticaly
+
+-> Exit (it will exit from container and container will stop automatical)
+
+-> docker run -itd centos (it will create new container and it will not switc to the container)
+
+-> docker ps (it will list existing running conatiner)
+
+-> docker ps -a (it will list all existing conatiners)
+
+-> ctrl+p+q (for exit from conatainer without stop)
+
+-> docker exec -it containerID /bin/bash   (to connect conatiners)
+
+-> docker start conatainerID (to start stoped conatainers)
+
+-> docker attach conatainerID (for in to the container)
+
+-> docker stop ( to stop runnig container)
+
+-> docker pa -a (for listing conatainers)
+
+-> docker run -itd centos ( it will create conatiner and it will not swich to the conatiner )
+
+-> docker run -itd ubuntu ( it will create ubuntu image and container also )
+
+   -> docker image
+   -> docker ps
+
+-> docker exec -it conatiner ID  (for in to the container )
+
