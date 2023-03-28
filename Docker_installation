@@ -1,0 +1,8 @@
+# sudo su
+# sudo yum install java-17-amazon-corretto-devel -y
+# yum install docker -y
+# docker --version
+# systemctl start docker
+# systemctl status docker
+# systemctl enable docker
+# systemctl stop docker
